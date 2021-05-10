@@ -16,7 +16,7 @@ df = entidades_s[entidades_s.NOM_ZM == "Guadalajara"]
 df_p = entidades_p[entidades_p.NOM_ZM == "Guadalajara"]
 
 
-noment = df.iloc[0]["NOM_ENT"]
+noment = df.iloc[0]["NOM_ZM"]
 
 #-------------------------------------Pob Total
 ptotal_s                                             = df.POBTOT.sum()      # población total  
